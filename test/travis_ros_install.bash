@@ -1,11 +1,11 @@
 #!/bin/bash -xve
 
 # required packages
-pip install pyopenssl ndg-httpsclient pyasn1
-pip install catkin_pkg
-pip install empy
-pip install pyyaml
-pip install rospkg
+sudo pip install pyopenssl ndg-httpsclient pyasn1
+sudo pip install catkin_pkg
+sudo pip install empy
+sudo pip install pyyaml
+sudo pip install rospkg
 
 # ros install
 cd ..
