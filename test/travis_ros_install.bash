@@ -1,6 +1,7 @@
 #!/bin/bash -xve
 
 # required packages
+pip install pyopenssl ndg-httpsclient pyasn1
 pip install catkin_pkg
 pip install empy
 pip install pyyaml
